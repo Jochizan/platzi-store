@@ -24,7 +24,9 @@ notifications:
       - jochizan.apps40@gmail.com
     on_success: always
     on_failure: always
-  slack: app-webs:rjCXBuErVE1YoyiCcoaYiQ1Q
+  slack:
+    secure: "wg0qc63uDojP0B29vFsX6BIYlzS0/O8sYa6sAshOQ5YuOFM0Lt8HHDsSSLXhI1iTMRuf/5NzKDm9niMbQLQO8ODH72960AmNAjuCJnCN/LIjF36+EkfJw30mjgkCw6nDd90fQH9jxJ8ApxtPYQPFR9J+X3cKYaEpN9NjSO4sMifBqsW1WYtwxypmWSsiMdyVLN+sNA+bj0k/+DPLD1DmzvgBjfecK/1VGP0aqGs9x2loIfWIYDPjEVvLaECcFB1J47HafrRUevx65IPPCn5cf8xAM9n4B9NWLiuulkTC8RIqI3D6100DzsZQbqiNd8IlbtYvo72VOZ7oxSVc56kLFehJyQIB0UBYzN5T/qoMSvfCu4cuVoJO625Lr6LuWQrtxgSqIJROSDQyYcFVFGzZgIXgY3eahNL+FMGl/AV7PmiUoc2hwSN96y85T51eacJETR4X1vbrd5FVIqUxS38IGgKAG6DN/KPAShv8HDrjPIiha0wG2QBk8sc+ME9nNVA24JY51JMB0mWgs6BCKZuXhQviJE6bLexLKZiN8STH0uRIxlkx2yGQaA7dZVzxemd7Kq02Kv/Gmj2HIryv8TnmJFmU8kQjYknS6JaYltM76ITrZARnAzOMvtChokJ2Ral6Z7CNhav5wKuhiU+0Qti3fwOq0hs1A8DdMDvoOCvTEMI="
+
 
 deploy:
   provider: pages
